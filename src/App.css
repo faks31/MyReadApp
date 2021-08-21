@@ -1,9 +1,9 @@
 /* Root Variables */
 
 :root {
-  --primary-color: rgb(54, 54, 233);
-  --select-color: rgb(68, 68, 223);
-  --search-color: rgb(108, 108, 206);
+  --primary-color: #2e7c31;
+  --select-color: #2e7c31;
+  --search-color: #2e7c31;
 }
 
 html,
@@ -23,13 +23,6 @@ body,
 }
 
 /* Main Page */
-
-/* Background color credit: https://uigradients.com/#EndlessRiver */
-.list-books {
-  background: #43cea2;
-  background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
-  background: linear-gradient(to right, #185a9d, #43cea2);
-}
 
 .list-books-title {
   padding: 10px 0;
@@ -63,7 +56,6 @@ body,
   border-bottom: 2px solid #dedede;
   text-align: center;
   padding-bottom: 0.3em;
-  color: rgb(0, 0, 139);
 }
 
 .bookshelf-books {
@@ -91,11 +83,6 @@ body,
 }
 
 /* Search Page */
-.search-books {
-  background: #43cea2;
-  background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
-  background: linear-gradient(to right, #185a9d, #43cea2);
-}
 
 .search-books-bar {
   position: fixed;
@@ -171,10 +158,6 @@ body,
 .book-title {
   margin-top: 10px;
   font-weight: bold;
-}
-
-.book-authors {
-  color: rgb(207, 233, 240);
 }
 
 .book-top {
