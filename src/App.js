@@ -19,7 +19,7 @@ class BooksApp extends Component {
     })
   }
 
-  // This hook runs after the component output has been rendered to the DOM (https://reactjs.org/docs/state-and-lifecycle.html)
+  // This hook runs after the component output has been rendered to the DOM
   componentDidMount() {
     this.retrieveBooksInfo();
   }
