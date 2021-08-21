@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Header {
+  background: #343a40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.Header h1 {
+  padding-left: 15px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
