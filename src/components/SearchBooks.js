@@ -16,10 +16,10 @@ const SearchBooks=({books,arrangeShelf})=>{
     // detect user input in search field (20 is the max amount of books displayed)
     if (query) {
       BooksAPI.search(query, 20).then((books) => {
-        if (query === query) {
+        if (query ) {
           return books.length > 0
-            ?  (setnewBooks(books),setqueryError(false))
-              :(setnewBooks([]),setqueryError(true));
+            ?  [setnewBooks(books),setqueryError(false)]
+              :[setnewBooks([]),setqueryError(true)];
         }
       });
     } else {

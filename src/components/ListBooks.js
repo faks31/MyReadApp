@@ -1,9 +1,9 @@
-import React, {  useState } from "react";
+import React from "react";
 import BookShelf from "./BookShelf";
 
 
 const ListBooks=({books,arrangeShelf})=>{
-  const [changedShelf,setchangedShelf]=useState(false);
+  
   const shelfCategories = [
     { category: "currentlyReading", title: "Currently Reading " },
     { category: "wantToRead", title: "Want To Read" },
