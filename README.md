@@ -13,6 +13,8 @@ Each book comes with a drop-down menu which contains the shelves. Clicking on th
 
 ## How To Run The App
 
+You can run a hosted version of the app at https://myreadappfaraz.netlify.app/
+
 To get started:
 
 * clone the project or download it as a .zip file
